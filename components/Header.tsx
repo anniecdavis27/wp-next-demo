@@ -19,8 +19,8 @@ function Header({
     { title: 'About', href: '/about' },
     { title: 'Posts', href: '/category/uncategorized' },
     {
-      title: 'GitHub',
-      href: 'https://github.com/wpengine/headless-framework',
+      title: 'Contact',
+      href: '/contact',
       class: 'button',
     },
   ];
