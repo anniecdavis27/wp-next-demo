@@ -1,20 +1,20 @@
 import { useQuery, gql } from "@apollo/client";
 
-    const authorsQuery = gql`
-    {
-        users {
-          nodes {
-            firstName
-            lastName
-            roles {
-              nodes {
-                displayName
-              }
-            }
-          }
-        }
-      }      
-    `;
+    // const authorsQuery = gql`
+    // {
+    //     users {
+    //       nodes {
+    //         firstName
+    //         lastName
+    //         roles {
+    //           nodes {
+    //             displayName
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }      
+    // `;
 
     const announcementsQuery = gql`
     {
