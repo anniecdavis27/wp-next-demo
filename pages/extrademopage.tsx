@@ -54,7 +54,7 @@ const ExtraDemoPage = () => {
     <ul>
       {announcements.map((announcement: any) => <li>
             <h3>{announcement.title}</h3>
-            <p>{announcement.content}</p>
+            {announcement.content}
             <p>{announcement.date}</p>
         </li>)}
     </ul>
