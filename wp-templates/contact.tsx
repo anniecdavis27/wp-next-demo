@@ -3,7 +3,7 @@ import { useGeneralSettings } from '@wpengine/headless/react';
 import { usePost } from '@wpengine/headless/next';
 import { Header, Hero, Footer } from '../components';
 
-export default function Page(): JSX.Element {
+export default function Contact(): JSX.Element {
   const post = usePost();
   const settings = useGeneralSettings();
 
