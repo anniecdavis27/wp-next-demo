@@ -8,7 +8,7 @@ const templates: Templates<NextTemplate> = {
   category: import('./category'),
   page: import('./page'),
   single: import('./single'),
-  'contact': import('./contact'),
+  'page-contact': import('./page-contact'),
 };
 
 export default templates;
