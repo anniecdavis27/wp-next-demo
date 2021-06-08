@@ -22,7 +22,7 @@ import { useQuery, gql } from "@apollo/client";
         nodes {
           date
           title
-          content
+          content(format: RENDERED)
         }
       }
     }    
