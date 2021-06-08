@@ -11,6 +11,7 @@ export default function Page(): JSX.Element {
     <>
       <Header title={settings?.title} description={settings?.description} />
       <main className="content content-page">
+          <p>CONTACT PAGE TESTING</p>
         {post?.title && <Hero title={post?.title} />}
         <div className="wrap">
           {post && (
